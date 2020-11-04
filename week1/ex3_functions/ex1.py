@@ -13,7 +13,7 @@ def count_characters(sentence: str):
     for char in sentence.upper():
         if char in counts_dict.keys():
             counts_dict[char] = counts_dict[char] + "*"
-        else:
+        elif char != " ":
             other_chars += 1
 
     for key, val in counts_dict.items():
