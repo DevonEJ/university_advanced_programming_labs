@@ -1,0 +1,6 @@
+<!DOCTYPE students
+[
+<!ELEMENT student (name, subjects)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT subjects (mathematics, english, it)>
+]>
