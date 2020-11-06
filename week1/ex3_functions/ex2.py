@@ -21,7 +21,7 @@ def main():
     else:
         print("These are not anagrams")
 
-
+        
 
 if __name__ =="__main__":
     main()
